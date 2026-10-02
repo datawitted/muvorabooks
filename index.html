@@ -16,8 +16,8 @@
   --raise:#14141A;
   --raise-2:#1A1A22;
   --line:#26262E;
-  --blood:#B31E23;
-  --blood-glow:rgba(179,30,35,.14);
+  --blood:#E5481D;
+  --blood-glow:rgba(229,72,29,.14);
   --bone:#EDE9E1;
   --smoke:#C9C6C0;
   --ash:#8A8E94;
@@ -99,7 +99,7 @@ a{color:inherit}
   border:1px solid #3a3a3a;border-radius:3px;
   box-shadow:0 26px 60px rgba(0,0,0,.7);
   background:
-    radial-gradient(circle at 50% 30%, rgba(179,30,35,.28), transparent 55%),
+    radial-gradient(circle at 50% 30%, rgba(229,72,29,.32), transparent 55%),
     linear-gradient(180deg,#0F0F13 0%,#050505 100%);
   padding:28px 24px 24px;
   display:flex;flex-direction:column;justify-content:space-between;
@@ -146,8 +146,8 @@ h1 .hl{color:var(--blood);display:block;font-style:italic}
   border:2px solid transparent;transition:transform .12s ease,background .18s ease,border-color .18s;
   min-height:56px;
 }
-.btn-primary{background:var(--blood);color:var(--bone);box-shadow:0 10px 30px rgba(179,30,35,.25)}
-.btn-primary:hover{background:#C82429;transform:translateY(-2px)}
+.btn-primary{background:var(--blood);color:var(--bone);box-shadow:0 10px 30px rgba(229,72,29,.28)}
+.btn-primary:hover{background:#F25A2E;transform:translateY(-2px)}
 .btn-ghost{border-color:#3A3F45;color:var(--bone);background:transparent}
 .btn-ghost:hover{border-color:var(--blood);color:var(--blood)}
 .btn-big{width:100%;font-size:1.14rem;padding:24px 30px}
@@ -188,8 +188,8 @@ p+p{margin-top:17px}
   animation:pulse 2s infinite;
 }
 @keyframes pulse{
-  0%,100%{box-shadow:0 0 0 4px rgba(179,30,35,.14)}
-  50%{box-shadow:0 0 0 8px rgba(179,30,35,.05)}
+  0%,100%{box-shadow:0 0 0 4px rgba(229,72,29,.14)}
+  50%{box-shadow:0 0 0 8px rgba(229,72,29,.05)}
 }
 .arc-title{
   font-family:var(--serif);font-size:1.5rem;font-weight:700;
@@ -226,7 +226,7 @@ p+p{margin-top:17px}
   background:var(--raise);border:1px solid var(--line);border-radius:6px;
   padding:32px 30px;display:flex;flex-direction:column;
 }
-.tier-featured{border-color:var(--blood);position:relative;box-shadow:0 20px 60px rgba(179,30,35,.12)}
+.tier-featured{border-color:var(--blood);position:relative;box-shadow:0 20px 60px rgba(229,72,29,.14)}
 .tier-featured::before{
   content:"Most popular";
   position:absolute;top:-11px;left:28px;
